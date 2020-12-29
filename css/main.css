@@ -7,15 +7,16 @@ html {
     font-size: 62.5%;
 }
 /* La página será el total de la pantalla */
-body {
+body {  
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.8rem;
+}
+.home-body {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.8rem;
 }
 a {
     display: inline;
@@ -136,4 +137,42 @@ a {
 .home-main-button a {
     font-size: 1.8rem;
     font-weight: 700;
+}
+/* blogs.html */
+.blogs-main {
+    display: grid;
+}
+.blogs-news-container {
+    /* top, right left, bottom */
+    padding: 0 50px 40px;
+    background-color: #e6e9ed;
+}
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blogs-main-new h3 {
+    margin: 20px 0;
+}
+.blogs-news-img-container {
+    grid-column: 1;
+}
+.blogs-news-img-container img{
+    /* La imagen se irá adaptando al tamaño del grid */
+    width: 85%;
+}
+.blogs-news-info-container {
+    grid-column: 2;
+}
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+}
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+.blogs-posts-container h3 {
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #cdd2da;
 }
