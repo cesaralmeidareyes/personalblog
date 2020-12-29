@@ -176,3 +176,8 @@ a {
     text-align: center;
     border-bottom: 1px solid #cdd2da;
 }
+.blogs-button {
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    border: 1px solid  #47cfac;
+}
