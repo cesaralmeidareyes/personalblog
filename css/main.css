@@ -13,7 +13,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 a {
     display: inline;
@@ -44,10 +44,28 @@ header .header-icons-container .icons {
     margin-right: 50px;
 }
 header .icons span {
+    font-size: 3rem;
     color: white;
 }
 .nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90px;
+}
+.nav .nav-logo-container {
+    margin-left: 50px;
+}
+.nav .nav-logo-container img {
+    width: 220px;
+    margin-left: 50px;
+}
+.nav .profile-link {
+    display: flex;
+    margin-right: 50px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
 }
