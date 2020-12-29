@@ -115,7 +115,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url('https://pixabay.com/get/57e9dd474956a814f1dc8460c62b317b163ddde24e5077497c2d78d09645c0_640.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2020/11/24/23/19/cyberpunk-5774101_960_720.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -133,10 +133,22 @@ a {
     letter-spacing: 10px;
     color: white;
 }
-.home-main-button {
+/* .home-main-button {
     width: 100px;
     height: 50px;
     background: #47cfac;
+} */
+.home-main-button {
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    background: #47cfac;
+    border: none;
+    outline: none;
+}
+.home-main-button:hover {
+    cursor: pointer;
+    background: #3fb899;
 }
 .home-main-button a {
     font-size: 1.8rem;
@@ -210,4 +222,23 @@ footer p {
     margin: 15px;
     font-size: 1.4rem;
     color: white;
+}
+/* blogpost.html */
+.blogpost-img-container {
+    /* arriba, izquierda derecha, abajo */
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img {
+    width: 100%;
+}
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cdd2da;
+}
+.blogpost-main-container article h1 {
+    padding: 20px 0;
+    font-size: 3.5rem;
 }
